@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/circle_outer"
+        >
+        <shape android:shape="oval">
+            <solid  android:color="#22C20CAA"></solid>
+            <size android:width="40dp"
+                android:height="40dp"></size>
+        </shape>
+    </item>
+    <item android:id="@+id/circle_inner_1">
+        <shape android:shape="oval">
+            <stroke android:color="@android:color/transparent"
+                android:width="30dp"/>
+            <solid  android:color="#AAC20CAA"></solid>
+            <size android:width="40dp"
+                android:height="40dp"></size>
+        </shape>
+    </item>
+
+    <item android:id="@+id/circle_inner_2">
+        <shape android:shape="oval">
+            <stroke android:color="@android:color/transparent"
+                android:width="20dp"/>
+            <solid  android:color="#99C20CAA"></solid>
+            <size android:width="40dp"
+                android:height="40dp"></size>
+        </shape>
+    </item>
+
+    <item android:id="@+id/circle_inner_3">
+        <shape android:shape="oval">
+            <stroke android:color="@android:color/transparent"
+                android:width="10dp"/>
+            <solid  android:color="#66C20CAA"></solid>
+            <size android:width="40dp"
+                android:height="40dp"></size>
+        </shape>
+    </item>
+    <item android:id="@+id/circle_inner">
+        <shape android:shape="oval"
+            >
+            <stroke android:color="@android:color/transparent"
+                android:width="35dp"/>
+            <solid android:color="#C20CAA"
+                ></solid>
+            <size android:width="15dp"
+                android:height="15dp"></size>
+        </shape>
+    </item>
+</layer-list>

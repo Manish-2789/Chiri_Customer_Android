@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chiri.ActivitiesFragments.AddVehicleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginLeft="@dimen/_10sdp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp">
+            <ImageView
+                android:id="@+id/iv_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_right"/>
+            <TextView
+                android:id="@+id/tv_add_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Vehicle"
+                android:textSize="@dimen/_17sdp"
+                android:fontFamily="@font/gilroy_bold"
+                android:textColor="#252736"
+                android:textAlignment="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_30sdp">
+            <TextView
+                android:id="@+id/tv_delivery_type"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Driver type"
+                android:textColor="#818386"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/gilroy_bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_arrow_down_pink"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp">
+            <EditText
+                android:id="@+id/et_mark"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Mark"
+                android:textColor="#818386"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/gilroy_bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_search_image"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp">
+            <EditText
+                android:id="@+id/et_model"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Model"
+                android:textColor="#818386"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/gilroy_bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_search_image"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp">
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                android:textColor="#818386"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/gilroy_bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_arrow_down_pink"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp">
+            <EditText
+                android:id="@+id/et_licence"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Licence plate"
+                android:textColor="#818386"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/gilroy_bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_20sdp">
+            <EditText
+                android:id="@+id/et_color"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Color"
+                android:textColor="#818386"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:fontFamily="@font/gilroy_bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_arrow_down_pink"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40sdp"
+            android:padding="@dimen/_15sdp"
+            android:background="@drawable/border_gray_bg_white"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_upload_photo"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Upload Photo"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#252736"
+                />
+            <ImageView
+                android:id="@+id/iv_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/ic_camera_image"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:id="@+id/btn_save_card"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_38sdp"
+            android:gravity="center"
+            android:background="@drawable/ractengle_less_round_solid_primary"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_vehicle"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:textAllCaps="false"
+                android:text="Add Vehicle"
+                android:background="@drawable/ractengle_less_round_solid_primary"
+                android:textColor="@color/newColorWhite"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal"
+                android:fontFamily="@font/gilroy_bold"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

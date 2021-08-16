@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginVertical="@dimen/_6sdp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvModeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/clan_ot_narrowmedium"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_5sdp"
+            android:textColor="@color/dark_gray"
+            android:textSize="@dimen/_12ssp"
+            tools:text="Express" />
+        <!--newColorBlack-->
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="1.8dp"
+            android:layout_gravity="center"
+            android:background="@color/newColorPrimary"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</layout>

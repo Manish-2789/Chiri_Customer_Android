@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "70108100937",
+    "firebase_url": "https://chiri-ee059-default-rtdb.firebaseio.com",
+    "project_id": "chiri-ee059",
+    "storage_bucket": "chiri-ee059.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70108100937:android:25e39ef361fa0fa5fd8298",
+        "android_client_info": {
+          "package_name": "com.lotustechnologicalsolution.chiri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70108100937-5fkq31sh3fkkgjoep8masd1uhi54moqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lotustechnologicalsolution.chiri",
+            "certificate_hash": "72ea853e5a0b7d4d62ae8a3a6690c262d1fd6c21"
+          }
+        },
+        {
+          "client_id": "70108100937-a75avap77tr6lm73irvlg6jdi17o1kb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp2GZvXoh2-vdAs_oZixdWTR4RVu_yKxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70108100937-a75avap77tr6lm73irvlg6jdi17o1kb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

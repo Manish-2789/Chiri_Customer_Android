@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.loopeer.lib:shadow:0.0.4-beta3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9eed2c0de8130abbb20ae0a141631b6a/jetified-shadow-0.0.4-beta3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9eed2c0de8130abbb20ae0a141631b6a/jetified-shadow-0.0.4-beta3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9eed2c0de8130abbb20ae0a141631b6a/jetified-shadow-0.0.4-beta3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a5a33b511e72c3ba08d3e05571b204e/jetified-shadow-0.0.4-beta3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a5a33b511e72c3ba08d3e05571b204e/jetified-shadow-0.0.4-beta3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7a5a33b511e72c3ba08d3e05571b204e/jetified-shadow-0.0.4-beta3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/203d845062fa9dc7245473fd0fb8753a/jetified-shadow-0.0.4-beta3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/203d845062fa9dc7245473fd0fb8753a/jetified-shadow-0.0.4-beta3/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/203d845062fa9dc7245473fd0fb8753a/jetified-shadow-0.0.4-beta3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.loopeer.lib/shadow/0.0.4-beta3/801dfe6507f7f77d8c6ff03e91bdd18309457f67/shadow-0.0.4-beta3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

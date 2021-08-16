@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98c502c8-21b7-4659-967d-e7de9cc06ff3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@/home/codeinfo/.android/avd/Pixel_3_API_R.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="1tlQYtO83GvAuxTJkv0tvraxCpA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="realme-rmx2027-UKQKLNFA6DQOHQBI" />
+    <property name="DEBUGGABLE_PROCESS" value="com.lotustechnologicalsolution" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-view/home/codeinfo/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.1.0-alpha09/583e6b564484c783cc9df424960e3b44c426fe8d/material-1.1.0-alpha09-sources.jar!/com/google/android/material/bottomnavigation/BottomNavigationView.java_SELECTED" value="BottomNavigationView" />
+    <property name="android-custom-viewC:/Users/admin/.gradle/caches/modules-2/files-2.1/com.github.joielechong/countrycodepicker/2.4.2/b89db6f79db6ef790c24c84d9dad2940cd6c1253/countrycodepicker-2.4.2-sources.jar!/com/rilixtech/widget/countrycodepicker/CountryCodePicker.java_SELECTED" value="CountryCodePicker" />
+    <property name="android-custom-viewC:/Users/admin/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.1.0-alpha09/583e6b564484c783cc9df424960e3b44c426fe8d/material-1.1.0-alpha09-sources.jar!/com/google/android/material/bottomnavigation/BottomNavigationView.java_SELECTED" value="BottomNavigationView" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-458007177">
+      <recent name="com.lotustechnologicalsolution.chiri.RecyclerViewAdapters" />
+      <recent name="com.lotustechnologicalsolution.chiri" />
+      <recent name="com.lotustechnologicalsolution.chiri.ActivitiesFragments" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.lotustechnologicalsolution.chiri.RecyclerViewAdapters" />
+    </key>
+    <key name="android.template.-1684155142">
+      <recent name="com.lotustechnologicalsolution.chiri.ActivitiesFragments.OrderCreate" />
+    </key>
+    <key name="android.template.-1936250547">
+      <recent name="com.lotustechnologicalsolution.chiri.ActivitiesFragments.MainHome" />
+    </key>
+    <key name="android.template.-973605131">
+      <recent name="com.lotustechnologicalsolution.chiri.ActivitiesFragments.MainHome" />
+      <recent name="com.lotustechnologicalsolution" />
+    </key>
+    <key name="android.template.1223281814">
+      <recent name="com.lotustechnologicalsolution.chiri.ActivitiesFragments.EditProfile" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lotustechnologicalsolution.chiri.ActivitiesFragments.PaymentMethod" />
+    </key>
+    <key name="android.template.1791840800">
+      <recent name="com.lotustechnologicalsolution.chiri.ActivitiesFragments.SignUp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="GoDeliver.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Chiri [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Chiri [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98c502c8-21b7-4659-967d-e7de9cc06ff3" name="Default Changelist" comment="" />
+      <created>1623341256777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623341256777</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="198" y="96" width="950" height="525" key="#PSD" timestamp="1624988247581">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="198" y="96" width="950" height="525" key="#PSD/0.0.1366.728@0.0.1366.728" timestamp="1624988247581" />
+    <state x="457" y="73" width="374" height="576" key="#com.intellij.ide.util.MemberChooser" timestamp="1628756346936">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="457" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1280.760@0.0.1280.760" timestamp="1628756346936" />
+    <state x="488" y="70" width="374" height="576" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1625075087148" />
+    <state x="0" y="0" width="1270" height="755" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1628269588417">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="0" y="0" width="1270" height="755" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.760@0.0.1280.760" timestamp="1628269588417" />
+    <state x="245" y="124" width="824" height="479" key="AndroidCreateResourceFileDialog" timestamp="1627631022099">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="245" y="124" key="AndroidCreateResourceFileDialog/0.0.1280.760@0.0.1280.760" timestamp="1627631022099" />
+    <state x="261" y="119" width="824" height="479" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1625301073196" />
+    <state x="425" y="116" width="447" height="518" key="AndroidProcessChooserDialog" timestamp="1628933860678">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="425" y="116" width="447" height="518" key="AndroidProcessChooserDialog/0.0.1280.760@0.0.1280.760" timestamp="1628933860678" />
+    <state x="454" y="111" width="447" height="496" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1627495159932" />
+    <state width="449" height="457" key="DebuggerActiveHint" timestamp="1628934014217">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="449" height="457" key="DebuggerActiveHint/0.0.1280.760@0.0.1280.760" timestamp="1628934014217" />
+    <state width="479" height="437" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1626279537540" />
+    <state x="463" y="118" width="424" height="479" key="FileChooserDialogImpl" timestamp="1625635870287">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" width="424" height="479" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625635870287" />
+    <state width="1238" height="184" key="GridCell.Tab.0.bottom" timestamp="1628962565042">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="184" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1628962565042" />
+    <state width="1314" height="172" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627496087002" />
+    <state width="1238" height="184" key="GridCell.Tab.0.center" timestamp="1628962565042">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="184" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1628962565042" />
+    <state width="1314" height="172" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627496087001" />
+    <state width="1238" height="184" key="GridCell.Tab.0.left" timestamp="1628962565028">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="184" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1628962565028" />
+    <state width="1314" height="172" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627496087001" />
+    <state width="1238" height="184" key="GridCell.Tab.0.right" timestamp="1628962565042">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="184" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1628962565042" />
+    <state width="1314" height="172" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627496087001" />
+    <state width="1238" height="184" key="GridCell.Tab.1.bottom" timestamp="1628962565043">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="184" key="GridCell.Tab.1.bottom/0.0.1280.760@0.0.1280.760" timestamp="1628962565043" />
+    <state width="1314" height="172" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627496087003" />
+    <state width="1238" height="184" key="GridCell.Tab.1.center" timestamp="1628962565043">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="184" key="GridCell.Tab.1.center/0.0.1280.760@0.0.1280.760" timestamp="1628962565043" />
+    <state width="1314" height="172" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627496087002" />
+    <state width="1238" height="184" key="GridCell.Tab.1.left" timestamp="1628962565042">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="184" key="GridCell.Tab.1.left/0.0.1280.760@0.0.1280.760" timestamp="1628962565042" />
+    <state width="1314" height="172" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627496087002" />
+    <state width="1238" height="184" key="GridCell.Tab.1.right" timestamp="1628962565043">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="1238" height="184" key="GridCell.Tab.1.right/0.0.1280.760@0.0.1280.760" timestamp="1628962565043" />
+    <state width="1314" height="172" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627496087002" />
+    <state x="182" y="0" key="SettingsEditor" timestamp="1624972921436">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="182" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1624972921436" />
+    <state width="640" height="380" key="XDebugger.FullValuePopup" timestamp="1628934014212">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state width="640" height="380" key="XDebugger.FullValuePopup/0.0.1280.760@0.0.1280.760" timestamp="1628934014212" />
+    <state x="479" y="142" width="387" height="433" key="chooseDestDirectoryDialog" timestamp="1625292544489">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="142" width="387" height="433" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1625292544489" />
+    <state x="151" y="0" width="875" height="760" key="find.popup" timestamp="1628803615423">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="151" y="0" width="875" height="760" key="find.popup/0.0.1280.760@0.0.1280.760" timestamp="1628803615423" />
+    <state x="161" y="0" width="875" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1627495458394" />
+    <state x="514" y="121" key="refactoring.ChangeSignatureDialog" timestamp="1623411320007">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="514" y="121" key="refactoring.ChangeSignatureDialog/0.0.1366.728@0.0.1366.728" timestamp="1623411320007" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1626267126210">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1626267126210" />
+    <state x="324" y="51" width="672" height="708" key="search.everywhere.popup" timestamp="1628269693672">
+      <screen x="0" y="0" width="1280" height="760" />
+    </state>
+    <state x="324" y="51" width="672" height="708" key="search.everywhere.popup/0.0.1280.760@0.0.1280.760" timestamp="1628269693672" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1625216049727" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/DrawMapPathF.java</url>
+          <line>538</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/MainA.java</url>
+          <line>345</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/EditProfile/ProfileFragment.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/DeliveryDetails/VehicleListF.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/DeliveryDetails/VehicleListF.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/MainF.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/MainF.java</url>
+          <line>579</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>192</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>750</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/SignUp/RegisterPhoneVerificationF.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/SplashScreenA.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/SignUp/RegisterPhoneNoF.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/SignUp/RegisterPhoneNoF.java</url>
+          <line>143</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/SignIn/LoginF.java</url>
+          <line>308</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/RecyclerViewAdapters/NearbyLocationAdapter.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/RecyclerViewAdapters/NearbyLocationAdapter.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/RecyclerViewAdapters/NearbyLocationAdapter.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>328</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/DeliveryDetails/CheckoutNewF.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/DeliveryDetails/CheckoutNewF.java</url>
+          <line>371</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/DeliveryDetails/CheckoutNewF.java</url>
+          <line>346</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/FinalDeliveryF.java</url>
+          <line>179</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/SearchLocationA.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/SearchLocationA.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/SearchLocationA.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/SearchLocationA.java</url>
+          <line>299</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/SearchLocationA.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/lotustechnologicalsolution/chiri/ActivitiesFragments/MainHome/SearchLocationA.java</url>
+          <line>292</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

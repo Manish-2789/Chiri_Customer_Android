@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_500sdp"
+    android:background="@android:color/transparent"
+    tools:context="chiri.BottomSheetDialogsFragments.AddPackageSizeSelectionBottomSheet"
+    tools:ignore="KeyboardInaccessibleWidget">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d_round_top_corners"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/_6sdp">
+
+        <View
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/d_round_corner_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:contentDescription="@string/app_name"
+                android:padding="@dimen/_2sdp"
+                android:src="@drawable/ic_arrow_right" />
+
+            <TextView
+                android:id="@+id/tvBankCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_toEndOf="@+id/ivBack"
+                android:fontFamily="@font/clan_ot_narrowbold"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="Bank Card"
+                android:textAllCaps="false"
+                android:textColor="@color/newColorBlack"
+                android:textSize="@dimen/_16sdp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/tvBankCardDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvBankCard"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_toEndOf="@+id/ivBack"
+                android:fontFamily="@font/clan_ot_narrowbook"
+                android:gravity="center_vertical"
+                android:hint=""
+                android:includeFontPadding="false"
+                android:singleLine="true"
+                android:text="Amount to pay for your delivery"
+                android:textAllCaps="false"
+                android:textColor="@color/newColorBlack"
+                android:textSize="@dimen/_12ssp"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_12sdp"
+                    android:layout_height="@dimen/_12sdp"
+                    android:src="@drawable/ic_ngn"
+                    android:tint="@color/newColorDarkHint" />
+
+                <TextView
+                    android:id="@+id/tvPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:fontFamily="@font/gilroy_light"
+                    android:gravity="center_vertical"
+                    android:hint=""
+                    android:includeFontPadding="false"
+                    android:singleLine="true"
+                    android:text="15"
+                    android:textAllCaps="false"
+                    android:textColor="@color/newColorBlack"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="normal|bold"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:background="@color/newColorWhite"
+                    android:gravity="center_vertical"
+                    tools:itemCount="2"
+                    tools:listitem="@layout/item_debit_credit_card" />
+
+                <RelativeLayout
+                    android:id="@+id/relativeAddNewCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp">
+
+                    <ImageView
+                        android:id="@+id/ic_add_new_card"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_marginStart="@dimen/_4sdp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@drawable/ic_baseline_add_circle_outline_24" />
+
+                    <TextView
+                        android:id="@+id/tvAddNewCard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:layout_toEndOf="@+id/ic_add_new_card"
+                        android:text="Add new card"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/_13ssp"
+                        tools:ignore="HardcodedText" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <!-- <Button
+             android:id="@+id/btnConfirmDelivery"
+             style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/_38sdp"
+             android:layout_marginLeft="@dimen/_20sdp"
+             android:layout_marginTop="@dimen/_20sdp"
+             android:layout_marginRight="@dimen/_20sdp"
+             android:layout_marginBottom="@dimen/_10sdp"
+             android:background="@drawable/ractengle_less_round_solid_primary"
+             android:clickable="true"
+             android:elevation="0dp"
+             android:enabled="true"
+             android:focusable="true"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:text="Confirm Delivery"
+             android:textAllCaps="false"
+             android:textColor="@color/newColorWhite"
+             android:textSize="@dimen/_11ssp"
+             tools:ignore="HardcodedText" />-->
+
+    </LinearLayout>
+
+</FrameLayout>

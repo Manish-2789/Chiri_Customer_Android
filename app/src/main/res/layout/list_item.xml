@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/expandedListItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:paddingStart="@dimen/_50sdp"
+            android:paddingTop="10dp"
+            android:paddingEnd="@dimen/_2sdp"
+            android:paddingBottom="10dp"
+            tools:text="This is product category" />
+
+        <ImageView
+            android:id="@+id/ivChecker"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_22sdp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight=".2"
+            android:checked="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_unchecked" />
+
+    </LinearLayout>
+</layout>

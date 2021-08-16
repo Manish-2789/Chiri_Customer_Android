@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/fl_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/standard_white"
+        android:clickable="true"
+        android:focusable="true"
+        tools:context=".chiri.ActivitiesFragments.DeliveryDetails">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/standard_white">
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/relativeLayoutMasterCard">
+
+                <RelativeLayout
+                    android:id="@+id/relativeMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/standard_white">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/locationCard"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
+                        app:cardCornerRadius="@dimen/_6sdp"
+                        app:cardElevation="@dimen/_6sdp">
+
+                        <LinearLayout
+                            android:id="@+id/ll_head"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingStart="@dimen/_6sdp"
+                            android:paddingTop="@dimen/_8sdp"
+                            android:paddingEnd="@dimen/_6sdp"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:weightSum="1">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="20dp"
+                                android:layout_weight=".05"
+                                android:src="@drawable/ic_circle"
+                                android:tint="@color/newColorPrimary" />
+
+                            <TextView
+                                android:id="@+id/tvFromLoaction"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".4"
+                                android:ellipsize="end"
+                                android:fontFamily="@font/clan_ot_narrowmedium"
+                                android:paddingStart="@dimen/_4sdp"
+                                android:paddingEnd="@dimen/_4sdp"
+                                android:singleLine="true"
+                                tools:text="401/7 shastri" />
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="20dp"
+                                android:layout_weight=".05"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/ic_baseline_arrow_right_alt_24" />
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_height="20dp"
+                                android:layout_weight=".05"
+                                android:contentDescription="@string/app_name"
+                                android:src="@drawable/ic_baseline_location_on_24" />
+
+                            <TextView
+                                android:id="@+id/tvToLocation"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".45"
+                                android:ellipsize="end"
+                                android:fontFamily="@font/clan_ot_narrowmedium"
+                                android:paddingStart="@dimen/_4sdp"
+                                android:paddingEnd="@dimen/_4sdp"
+                                android:singleLine="true"
+                                tools:text="399/7 Noida" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:id="@+id/layoutProductCategory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/locationCard"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".8"
+                                android:fontFamily="@font/clan_ot_narrowmedium"
+                                android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:text="Product Category"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText,RtlSymmetry" />
+
+                            <TextView
+                                android:id="@+id/pc_add"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".2"
+                                android:fontFamily="@font/clan_ot_narrowmedium"
+                                android:gravity="center"
+                                android:text="-"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/_24sdp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rvProductCategory"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_notes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/layoutProductCategory"
+                        android:animateLayoutChanges="true"
+                        android:orientation="vertical"
+                        android:weightSum="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:paddingVertical="@dimen/_4sdp">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".8"
+                                android:fontFamily="@font/clan_ot_narrowmedium"
+                                android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:text="Notes"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_13ssp"
+                                tools:ignore="HardcodedText,RtlSymmetry" />
+
+                            <TextView
+                                android:id="@+id/notes_add"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".2"
+                                android:fontFamily="@font/clan_ot_narrowmedium"
+                                android:gravity="center"
+                                android:text="+"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/_24sdp"
+                                tools:ignore="HardcodedText" />
+
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/note_discription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_20sdp"
+                            android:layout_marginTop="@dimen/_6sdp"
+                            android:layout_marginEnd="@dimen/_20sdp"
+                            android:layout_marginBottom="@dimen/_6sdp"
+                            android:background="@drawable/relative_search_bg"
+                            android:fontFamily="@font/gilroy_light"
+                            android:gravity="top"
+                            android:hint="Enter your notes"
+                            android:lines="5"
+                            android:padding="10dp"
+                            android:visibility="gone"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_fragile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_notes"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingVertical="@dimen/_4sdp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".85"
+                            android:fontFamily="@font/clan_ot_narrowmedium"
+                            android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="?android:attr/expandableListPreferredItemPaddingLeft"
+                            android:paddingBottom="10dp"
+                            android:text="Fragile?"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_13ssp"
+                            tools:ignore="HardcodedText" />
+
+                        <CheckBox
+                            android:id="@+id/cbFragile"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".15"
+                            android:checked="false" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/deliveryMode"
+                        android:layout_width="match_parent"
+                        android:gravity="center_horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ll_fragile"
+                        android:orientation="horizontal">
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rvDeliveryMode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            tools:itemCount="1"
+                            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                            tools:listitem="@layout/item_delivery_mode" />
+
+                    </LinearLayout>
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/viewpager"
+                        android:layout_width="match_parent"
+                        android:layout_height = "@dimen/_300sdp"
+                        android:layout_below="@id/deliveryMode">
+
+                    </androidx.viewpager.widget.ViewPager>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvDeliveryType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/viewpager"
+                        android:visibility="gone"
+                        android:layoutAnimation="@anim/delivery_type_item_animation" />
+                    android:layout_below="@id/deliveryMode"
+                </RelativeLayout>
+
+            </androidx.core.widget.NestedScrollView>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayoutMasterCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/newColorWhite"
+                android:padding="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:id="@+id/selectedCardLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/ivCardSelection"
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="@dimen/_4sdp"
+                        android:checked="true"
+                        android:contentDescription="@string/app_name"
+                        android:gravity="center_vertical"
+                        android:src="@drawable/ic_selected_card" />
+
+                    <RelativeLayout
+                        android:id="@+id/relativeCardNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_4sdp"
+                        android:layout_marginTop="@dimen/_2sdp"
+                        android:layout_toEndOf="@+id/ivCardSelection">
+
+                        <ImageView
+                            android:id="@+id/ivMasterCard"
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/_5sdp"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_card" />
+
+                        <TextView
+                            android:id="@+id/tvCardNumber"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="@dimen/_10sdp"
+                            android:layout_toEndOf="@+id/ivMasterCard"
+                            android:ellipsize="middle"
+                            android:singleLine="true"
+                            android:textColor="@color/newColorBlack"
+                            android:textSize="@dimen/_12ssp"
+                            tools:ignore="HardcodedText"
+                            tools:text="1234 5678 9012 3456" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view_border"
+                        android:layout_width="@dimen/_1sdp"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_toStartOf="@+id/linearSchedule"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:id="@+id/linearSchedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:id="@+id/ivCalendar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/ic_shedule"
+                            android:tint="@color/colorPrimary" />
+
+                        <TextView
+                            android:id="@+id/tvSchedule"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Schedule"
+                            android:textSize="@dimen/_11ssp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btnMainConfirmDelivery"
+                    style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_38sdp"
+                    android:layout_below="@+id/selectedCardLayout"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginRight="@dimen/_5sdp"
+                    android:background="@drawable/ractengle_less_round_solid_primary"
+                    android:clickable="true"
+                    android:elevation="0dp"
+                    android:enabled="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:text="Confirm Delivery"
+                    android:textAllCaps="false"
+                    android:textColor="@color/newColorWhite"
+                    android:textSize="@dimen/_11ssp"
+                    android:visibility="gone"
+                    tools:ignore="HardcodedText" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</layout>

@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.tintinscorpion:Dual-color-Polyline-Animation:1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d7e886d2a869053f24eba3cdc0b0210f/jetified-Dual-color-Polyline-Animation-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d7e886d2a869053f24eba3cdc0b0210f/jetified-Dual-color-Polyline-Animation-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d7e886d2a869053f24eba3cdc0b0210f/jetified-Dual-color-Polyline-Animation-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03b6de53315438022acce3419f2b8c6c/jetified-Dual-color-Polyline-Animation-1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03b6de53315438022acce3419f2b8c6c/jetified-Dual-color-Polyline-Animation-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/03b6de53315438022acce3419f2b8c6c/jetified-Dual-color-Polyline-Animation-1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3bbe939cd613d0a0e8b723d764053e0f/jetified-Dual-color-Polyline-Animation-1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3bbe939cd613d0a0e8b723d764053e0f/jetified-Dual-color-Polyline-Animation-1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3bbe939cd613d0a0e8b723d764053e0f/jetified-Dual-color-Polyline-Animation-1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tintinscorpion/Dual-color-Polyline-Animation/1.0/7d259b2b0101744cf76e34296595be12693cc918/Dual-color-Polyline-Animation-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

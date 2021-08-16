@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/listTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".8"
+            android:fontFamily="@font/clan_ot_narrownews"
+            android:paddingStart="?android:attr/expandableListPreferredItemPaddingLeft"
+            android:paddingTop="10dp"
+            android:paddingEnd="@dimen/_2sdp"
+            android:paddingBottom="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_12ssp"
+            tools:text="Test" />
+
+        <TextView
+            android:id="@+id/tvIcon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:fontFamily="@font/clan_ot_narrowmedium"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_24sdp"
+            tools:ignore="HardcodedText" />
+
+    </LinearLayout>
+
+</layout>
